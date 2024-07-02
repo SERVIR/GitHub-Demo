@@ -1,5 +1,7 @@
-def foo(a,b):
-    return a + b
+import math
+
+def foo(a, b, x):
+    return a * math.sin(b * x)
 
 def bar(a,b):
     return a * b
