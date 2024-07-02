@@ -1,7 +1,7 @@
 import math
 
 def foo(a, b, x):
-    return a * math.cos(b * x)
+    return a * math.sin(b * x)
 
 def bar(a,b):
     return a * b
